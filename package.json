@@ -1,7 +1,8 @@
 {
   "name": "@jakelowen/knex-graphql-filters",
-  "version": "2.0.0",
-  "main": "index.js",
+  "version": "2.0.1",
+  "repository": "jakelowen/knex-graphql-filters",
+  "main": "lib/index.js",
   "license": "MIT",
   "dependencies": {
     "lodash.get": "^4.4.2",
