@@ -11,6 +11,10 @@
   "scripts": {
     "test": "DATABASE_URL=postgres://localhost:5432/generic_test_db jest --detectOpenHandles --runInBand --forceExit"
   },
+  "tags": [
+    "graphql",
+    "knex"
+  ],
   "devDependencies": {
     "faker": "^4.1.0",
     "jest": "^24.1.0",
