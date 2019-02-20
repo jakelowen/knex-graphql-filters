@@ -1,6 +1,6 @@
 {
   "name": "@jakelowen/knex-graphql-filters",
-  "version": "2.2.0",
+  "version": "2.3.0",
   "repository": "jakelowen/knex-graphql-filters",
   "main": "lib/index.js",
   "license": "MIT",
