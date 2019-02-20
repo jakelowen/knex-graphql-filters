@@ -35,6 +35,12 @@ input UserSort {
   updatedAt: SortDirection
 }
 
+type UsersResults {
+  hasMore: Boolean!
+  totalCount: Int!
+  items: [User]!
+}
+
 enum SortDirection {
   ASC
   DESC
@@ -48,6 +54,7 @@ enum SortDirection {
 import { getManyHOR } from "@jakelowen/knex-graphql-filters";
 
 export default async (root, args, context, info) => {
+  // "users" is table name.
   return getManyHOR("users")(root, args, context, info);
 };
 
